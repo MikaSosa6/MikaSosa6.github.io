@@ -1,0 +1,177 @@
+/*aplicando estilos a elementos html*/
+body{background-color: #c0c3eb;}
+#index{background-image: url(imagenes/fondo43.gif);}
+#osho{background-image: url(imagenes/fondo45.gif);}
+#mooji{background-image: url(imagenes/fondo27.gif);}
+#foster{background-image: url(imagenes/fondo33.gif);}
+#tolle{background-image: url(imagenes/fondo32.gif);}
+#vipassana{background-image: url(imagenes/fondo34.gif.crdownload.gif);}
+#contacto{background-image: url(imagenes/fondo35.gif.crdownload.gif);}
+/*text 3d*/
+
+
+ .css-3d-text {
+	font-size: 64px;
+    color: #8ca7de;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(116,143,198),
+                 1px 1px 0 rgb(93,120,175),
+                 2px 2px 0 rgb(69,96,151),
+                 3px 3px 0 rgb(46,73,128),
+                 4px 4px 0 rgb(22,49,104),
+                 5px 5px 0 rgb(-1,26,81),
+                 6px 6px 0 rgb(-25,2,57),
+                 7px 7px  0 rgb(-49,-22,33),
+                 8px 8px 7px rgba(252,54,255,0.6),
+                 8px 8px 1px rgba(252,54,255,0.5),
+                 0px 0px 7px rgba(252,54,255,.2);
+ }
+
+ .texto3d{
+    font-size: 46px;
+    color: #a27bb8;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(138,99,160),
+                 1px 1px 0 rgb(115,76,137),
+                 2px 2px 0 rgb(91,52,113),
+                 3px 3px 0 rgb(68,29,90),
+                 4px 4px 0 rgb(44,5,66),
+                 5px 5px 0 rgb(21,-18,43),
+                 6px 6px 0 rgb(-3,-42,19),
+                 7px 7px  0 rgb(-27,-66,0),
+                 8px 8px 7px rgba(36,204,255,0.6),
+                 8px 8px 1px rgba(36,204,255,0.5),
+                 0px 0px 7px rgba(36,204,255,.2);
+ }
+
+ /* titulo*/
+
+ .m3d {
+	font-family:'Helvetica Neue',Helvetica, sans-serif;
+	line-height:1em;
+	color:#64d7db;
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:69px;
+	text-shadow:0px 0px 0 rgb(73,188,192),1px 1px 0 rgb(55,170,174),2px 2px 0 rgb(38,153,157),3px 3px 0 rgb(20,135,139),4px 4px 0 rgb(3,118,122), 5px 5px 0 rgb(-14,101,105),6px 6px 5px rgba(0,0,0,0.6),6px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2);}
+
+/*aplicando estilos a capas*/
+
+#cabecera h2{color: rgb(0, 0, 0); text-align: center;}
+
+#cabecera li:hover{border-color: rgb(115, 239, 255);}
+
+#contenido{text-align: center;}
+
+#contenido p{color: rgb(0, 0, 0); font-family:'Arial Narrow Bold'; text-align: justify; 
+	font-weight:900; font-size: 25px; text-indent: 35px; margin-left: 25px ; margin-right: 25px;}
+
+#info{color: rgb(0, 0, 0);text-align: right; font-weight:900; font-size: 25px;}
+
+#pie{background-color: rgb(233, 205, 205); text-align: justify;}
+
+#pie h2{color: rgb(0, 0, 0); text-align: center;}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	background-color:#afbed6;
+	border-radius:40px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4b5775;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*vipassana*/
+
+.Boton {
+	box-shadow: 0px 10px 14px -7px #14a0b5;
+	background:linear-gradient(to bottom, #29eaff 5%, #4d05ab 100%);
+	background-color:#29eaff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff7ff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.Boton:hover {
+	background:linear-gradient(to bottom, #4d05ab 5%, #29eaff 100%);
+	background-color:#4d05ab;
+}
+.Boton:active {
+	position:relative;
+	top:1px;
+}
+
+.Button {
+	box-shadow:inset 0px 0px 14px -3px #7175a8;
+	background:linear-gradient(to bottom, #d0b8d1 5%, #b791d6 100%);
+	background-color:#d0b8d1;
+	border-radius:6px;
+	border:1px solid #87c4d6;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.Button:hover {
+	background:linear-gradient(to bottom, #b791d6 5%, #d0b8d1 100%);
+	background-color:#b791d6;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+/*descargas libros*/
+.miboton {
+	box-shadow: 3px 4px 0px 0px #647794;
+	background:linear-gradient(to bottom, #a08cbd 5%, #7a8aa3 100%);
+	background-color:#a08cbd;
+	border-radius:18px;
+	border:1px solid #010305;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:4px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.miboton:hover {
+	background:linear-gradient(to bottom, #7a8aa3 5%, #a08cbd 100%);
+	background-color:#7a8aa3;
+}
+.miboton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#tabla{font-family:fantasy; color:rgb(0, 0, 0) ; font-size: 19px; background-image:url(imagenes/fondo7.jpg); 
+	margin-left: 7px ; margin-right: 7px; text-align: justify;}
+#edit{text-align: center; background-image: url(imagenes/fondo7.jpg);font-family:fantasy; color:rgb(0, 0, 0) ; font-size: 19px;}
+#letra{font-weight:900; font-size: 25px; text-indent: 5px;}
